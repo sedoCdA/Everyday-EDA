@@ -1,11 +1,11 @@
-# 🕵️‍♂️ Adversarial Fraud Detection System
+#  Adversarial Fraud Detection System
 
 
-## ⭐ Note
+##  Note
 
 This project uses a **real-world anonymized dataset**, making it closer to actual industry fraud detection systems.
 
-## 🚀 Overview
+## Overview
 
 This project focuses on building a **fraud detection system for online transactions** using a **real-world dataset** from the IEEE-CIS Fraud Detection competition.
 
@@ -15,13 +15,13 @@ The goal is to predict the probability that a transaction is fraudulent (`isFrau
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Given anonymized transaction and identity data, the task is to:
 
 > Predict the probability of an online transaction being fraudulent.
 
-### ⚠️ Key Challenges:
+### Key Challenges:
 
 * Highly **imbalanced dataset** (~3.5% fraud)
 * **Anonymized features** (V1–V339)
@@ -30,7 +30,7 @@ Given anonymized transaction and identity data, the task is to:
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 This project uses a **real-world dataset** released by the IEEE Computational Intelligence Society.
 
@@ -43,9 +43,9 @@ This project uses a **real-world dataset** released by the IEEE Computational In
 
 ---
 
-## 🧪 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-### 🔍 Key Insights:
+###  Key Insights:
 
 * Fraud transactions often occur in **specific time windows (early hours)**
 * Fraudsters operate within **normal transaction ranges**
@@ -56,12 +56,12 @@ This project uses a **real-world dataset** released by the IEEE Computational In
 
 ## ⚙️ Feature Engineering
 
-### ✅ Basic Features:
+### Basic Features:
 
 * `hour` extracted from TransactionDT
 * `missing_count`, `missing_ratio`
 
-### 🧠 Behavioral Features (Planned / In Progress):
+### Behavioral Features (Planned / In Progress):
 
 * User-level aggregation
 * Velocity features (transaction frequency)
@@ -83,7 +83,7 @@ This project uses a **real-world dataset** released by the IEEE Computational In
 
 ---
 
-## 📊 Feature Importance Insights
+##  Feature Importance Insights
 
 Initial model highlights:
 
@@ -94,7 +94,7 @@ Initial model highlights:
 
 ---
 
-## 🧨 Key Learnings
+## Key Learnings
 
 * Fraud detection is a **behavioral problem**, not just classification
 * **Velocity and user behavior** are critical signals
@@ -103,7 +103,7 @@ Initial model highlights:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 * User reconstruction (identifying same user across transactions)
 * Advanced velocity features
@@ -113,7 +113,7 @@ Initial model highlights:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -122,8 +122,8 @@ Initial model highlights:
 
 ---
 
-## 📌 Author
+## Author
 Zenil Ashokkumar Roy
 PG Diploma IIT Gandhinagar
-Built with ⚡ and curiosity to understand real-world fraud behavior.
+Built with and curiosity to understand real-world fraud behavior.
 ---
